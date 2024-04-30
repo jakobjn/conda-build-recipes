@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://github.com/gagneurlab/{{ name }}.git
-  git_rev: 1b0cd9581ba1b1ae2bf329821c3a5823ef6505b7
+  git_url: https://github.com/jakobjn/{{ name }}.git
+  git_rev: 567d3576bf34939c8cbdc7e835a3f33cf8c5afd6
   git_depth: 1
 
 build:
-  number: 0
+  number: 1
   script: R CMD INSTALL --build .
 
 requirements:
